@@ -5,7 +5,7 @@ from django.db import models
 class Shoe(models.Model):
     type = models.CharField(max_length=100)
     styling = models.CharField(max_length=100)
-    image = models.TextField()
+    photo = models.ImageField(upload_to='images/', default='images/default.jpg')
     details = models.CharField(max_length=100)
     description = models.CharField(max_length=100)
     brand_name = models.CharField(max_length=100)

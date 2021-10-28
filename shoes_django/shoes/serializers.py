@@ -6,4 +6,4 @@ class ShoeSerializer(serializers.HyperlinkedModelSerializer):
 
     class Meta:
         model = Shoe
-        fields = ("id", "type", "styling", "image", "details", "description", "brand_name", "brand_url", "shoe_url")
+        fields = ("id", "type", "styling", "details", "description", "brand_name", "brand_url", "shoe_url", "photo")
