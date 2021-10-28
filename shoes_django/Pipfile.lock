@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "04969815c0a8d5679873c1196cfd06d9a8381e782ffad472815ae72f77725cec"
+            "sha256": "d19160abcdffd4ef63627f53ae8e9c4b9e9708fabc46ece38eb6e9b4bf4b0fe6"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -31,6 +31,22 @@
             ],
             "markers": "python_version ~= '3.6'",
             "version": "==2.8.4"
+        },
+        "boto3": {
+            "hashes": [
+                "sha256:eb374e3e5431af55c816757c671f711237325e31177d5ac9441c83a11acbeda9",
+                "sha256:f70abe3ae4e6d4bce6c92f1871347cb4c23a6f6b9dc52261f6342d063cb07ffb"
+            ],
+            "index": "pypi",
+            "version": "==1.19.5"
+        },
+        "botocore": {
+            "hashes": [
+                "sha256:69780a647b7fef650fef18cba128795dade71b8c4c8fab57960592f217f9681f",
+                "sha256:ad6a13d820c6b66859b12f0a43a4c5d9ae4fc62c76f3dc81115e0d1f77c2c3fb"
+            ],
+            "markers": "python_version >= '3.6'",
+            "version": "==1.22.5"
         },
         "dj-database-url": {
             "hashes": [
@@ -64,6 +80,14 @@
             "index": "pypi",
             "version": "==3.1.3"
         },
+        "django-storages": {
+            "hashes": [
+                "sha256:0013ebe4904521e2fa28f33591a03a7210304d73363e7eadd7cdcf81c12ba003",
+                "sha256:683b70617f4be9baa17b2d6d7df46cf6afe31b5eb17ece3ca82f773f555592a7"
+            ],
+            "index": "pypi",
+            "version": "==1.12.2"
+        },
         "djangorestframework": {
             "hashes": [
                 "sha256:6d1d59f623a5ad0509fe0d6bfe93cbdfe17b8116ebc8eda86d45f6e16e819aaf",
@@ -87,6 +111,14 @@
             ],
             "markers": "python_version < '4.0' and python_full_version >= '3.6.1'",
             "version": "==5.9.3"
+        },
+        "jmespath": {
+            "hashes": [
+                "sha256:b85d0567b8666149a93172712e68920734333c0ce7e89b78b3e987f71e5ed4f9",
+                "sha256:cdf6525904cc597730141d61b36f2e4b8ecc257c420fa2f4549bac2c2d0cb72f"
+            ],
+            "markers": "python_version >= '2.6' and python_version not in '3.0, 3.1, 3.2, 3.3'",
+            "version": "==0.10.0"
         },
         "lazy-object-proxy": {
             "hashes": [
@@ -241,12 +273,36 @@
             ],
             "version": "==0.6"
         },
+        "python-dateutil": {
+            "hashes": [
+                "sha256:0123cacc1627ae19ddf3c27a5de5bd67ee4586fbdd6440d9748f8abb483d3e86",
+                "sha256:961d03dc3453ebbc59dbdea9e4e11c5651520a876d0f4db161e8674aae935da9"
+            ],
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
+            "version": "==2.8.2"
+        },
         "pytz": {
             "hashes": [
                 "sha256:3672058bc3453457b622aab7a1c3bfd5ab0bdae451512f6cf25f64ed37f5b87c",
                 "sha256:acad2d8b20a1af07d4e4c9d2e9285c5ed9104354062f275f3fcd88dcef4f1326"
             ],
             "version": "==2021.3"
+        },
+        "s3transfer": {
+            "hashes": [
+                "sha256:50ed823e1dc5868ad40c8dc92072f757aa0e653a192845c94a3b676f4a62da4c",
+                "sha256:9c1dc369814391a6bda20ebbf4b70a0f34630592c9aa520856bf384916af2803"
+            ],
+            "markers": "python_version >= '3.6'",
+            "version": "==0.5.0"
+        },
+        "six": {
+            "hashes": [
+                "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926",
+                "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"
+            ],
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
+            "version": "==1.16.0"
         },
         "sqlparse": {
             "hashes": [
@@ -272,6 +328,14 @@
             ],
             "markers": "python_version < '3.10'",
             "version": "==3.10.0.2"
+        },
+        "urllib3": {
+            "hashes": [
+                "sha256:4987c65554f7a2dbf30c18fd48778ef124af6fab771a377103da0585e2336ece",
+                "sha256:c4fdf4019605b6e5423637e01bc9fe4daef873709a7973e195ceba0a62bbc844"
+            ],
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4' and python_version < '4.0'",
+            "version": "==1.26.7"
         },
         "whitenoise": {
             "hashes": [
