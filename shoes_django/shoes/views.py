@@ -5,8 +5,8 @@ from .serializers import ShoeSerializer
 
 class ShoeList(generics.ListCreateAPIView):
     queryset = Shoe.objects.all()
-    serializers_class = ShoeSerializer
+    serializer_class = ShoeSerializer
 
 class ShoeDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = Shoe.objects.all()
-    serializers_class = ShoeSerializer
+    serializer_class = ShoeSerializer
