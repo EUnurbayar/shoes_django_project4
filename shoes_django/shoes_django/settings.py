@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django_extensions',
     'rest_framework',
     'corsheaders',
+    
 ]
 
 MIDDLEWARE = [
@@ -141,9 +142,12 @@ REST_FRAMEWORK = {
 
 STATIC_ROOT=os.path.join(BASE_DIR, "static/")
 
+
+
 # configure Media
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, "media/") 
+
 
 
 # AWS
